@@ -1,0 +1,19 @@
+{
+  "name": "tp1---solucao",
+  "version": "1.0.0",
+  "description": "Resolução atividade TP1 de Backend com Typescript Pós graduação MIT Desenvolvimento FullStack",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leandro Perego",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.4.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
