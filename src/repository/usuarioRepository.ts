@@ -28,6 +28,11 @@ class UsuarioRepository {
     }
 
     deleteUser(id:number) : Usuario[] {
+
+        if (typeof id !== 'number') {
+            throw new Error('Id informado deve ser um número.');
+        }
+
         const index: number = usuarios.findIndex(u => u.id === id);
         if (index !== -1) {
             usuarios.splice(index, 1);
